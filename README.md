@@ -1,3 +1,3 @@
-# An weaher API application
+# A weather API application
 
-Know your current position weather status
+Know your current position weather status.
