@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/all.min.css" />
+
+    <!-- Website logo -->
+    <link rel="icon" href="assets/images/weather.svg" />
+    <script type="module" src="assets/js/controller.js"></script>
+    <title>Weather Website</title>
+  </head>
+  <body>
+    <!-- LIGHT - DARK THEME -->
+    <button class="theme-btn">
+      <i class="fas fa-sun sun active-theme"></i>
+      <i class="fas fa-moon moon off"></i>
+    </button>
+    <main>
+      <section class="left-side">
+        <div class="container">
+          <div class="search-bar">
+            <!-- <div> -->
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              id="search-input"
+              type="text"
+              placeholder="Search for places"
+            />
+            <i class="fa-solid fa-location-dot location-btn"></i>
+            <!-- </div> -->
+          </div>
+          <div class="result">
+            <img src="assets/images/cloudy.png" alt="" class="main-img" />
+            <h1 class="temperature-status">TBD</h1>
+            <div class="day">TBD</div>
+            <div class="info">
+              <img
+                class="condition-img"
+                src="assets/images/cloudy.png"
+                alt=""
+              />
+              <span class="condition">TBD</span>
+            </div>
+          </div>
+          <div class="location">
+            <div class="overlay"></div>
+            <h2 class="location-name">Amman, Jordan</h2>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <section class="right-side">
+        <div class="top">
+          <div class="week-day">
+            <h3 class="today-btn">Today</h3>
+            <h3 class="week-btn active-week-day">Week</h3>
+          </div>
+          <div class="temp-c-f">
+            <h3 aria-checked="true" class="temp-degree celsius active-c-f">
+              C
+            </h3>
+            <h3 aria-checked="false" class="temp-degree fehrenhite">F</h3>
+            <img src="assets/images/Mustafa.jpg" alt="logo" class="logo" />
+          </div>
+        </div>
+        <div class="week-status">
+          <!-- <div class="week-day active-day">
+            <span class="day-name">sun</span>
+            <img
+              src="assets/images/cloudy.png"
+              alt="Weather Status"
+              class="status-day-img"
+            />
+            <div class="status-numbers">
+              <span class="min-temp">15<sup>c</sup></span>
+              <span class="max-temp">15<sup>c</sup></span>
+            </div>
+          </div>   -->
+        </div>
+        <div class="today-status">
+          <h2>Today's Highlights</h2>
+          <div class="cards">
+            <div class="card">
+              <h3>UV Index</h3>
+              <span class="speed uv">TBD</span>
+              <div>
+                <span class="font-bold uv-status status">Status TBD</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>Wind status</h3>
+              <span class="speed wind-speed">TBD</span>
+              <div class="direction">
+                <span class="wind-dir status">Direction TBD</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>sunrise & sunset</h3>
+              <div class="sunrise sun-time">
+                <i class="fa-sharp fa-solid fa-arrow-up"></i>
+                <div class="time">
+                  <span class="sunrise-time">TBD</span>
+                </div>
+              </div>
+              <div class="sunset sun-time">
+                <i class="fa-sharp fa-solid fa-arrow-down"></i>
+                <div class="time">
+                  <span class="sunset-time">TBD</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <h3>humidity</h3>
+              <div class="speed humidity">TBD</div>
+              <div>
+                <span class="font-bold humidity-status status">Status TBD</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>visibility</h3>
+              <div class="speed visibility">TBD</div>
+              <div>
+                <span class="font-bold visibility-status status"
+                  >Status TBD</span
+                >
+              </div>
+            </div>
+            <div class="card">
+              <h3>Air quality</h3>
+              <div class="speed air-quality">TBD</div>
+              <div>
+                <span class="font-bold air-quality-status status"
+                  >Status TBD</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
